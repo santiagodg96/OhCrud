@@ -52,7 +52,8 @@ margin-bottom: 1%;
 }
 
 .deleter{
+cursor: pointer; 
 padding: 1%;
 border-radius: 5px;
-background-color: rgb(247, 86, 86);   
+background-color: rgb(247, 86, 86)
 }
