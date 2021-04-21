@@ -1,0 +1,90 @@
+*{
+font-family: calibri;    
+
+text-align: center;
+}
+
+#campo{
+    border-radius: 30px;
+    min-height: 500px;
+    max-height: 800px;
+    width: 80%;
+    box-shadow: 2px 2px 6px rgb(49, 49, 49);
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);  
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+    margin-bottom: 2%;
+}
+
+@keyframes BgGradient{
+0% {background-position: 0% 50%;}    
+50% {background-position: 100% 50%;}    
+100% {background-position: 0% 50%;}    
+}
+
+.title{
+font-size: 400%;
+margin-top: 20px;
+
+}
+
+.subtitle{
+font-size: 120%;
+margin-bottom: 20px;
+}
+
+.btn{
+margin-right: 5px;    
+margin-bottom: 8px;
+}
+
+.inpF{
+background-color: black;
+color: white;
+font-size:120%;
+}
+
+.p-style{
+font-size:130%;
+font-weight: bold;
+margin-top: 1%;
+margin-bottom: 1%;
+}
+
+.deleter{
+cursor: pointer; 
+padding: 1%;
+border-radius: 5px;
+background-color: rgb(247, 86, 86)
+}
+
+.saved{
+    font-size: 180%;
+    margin-top: 1%;
+    margin-bottom:20px;
+}
+
+.to-dos2{
+  margin-top: 20px;  
+}
+
+.campo2{
+    display: inline-block;
+    border-radius: 30px;
+    min-height: 500px;
+    max-height: 800px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 6px rgb(49, 49, 49);
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-size: 400% 300%;
+    animation: BgGradient2 5s ease infinite;
+    margin-bottom: 2%;
+}
+
+@keyframes BgGradient2{
+0% {background-position: 0% 50%;}    
+50% {background-position: 100% 50%;}    
+100% {background-position: 0% 50%;}    
+}
+
