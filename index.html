@@ -13,19 +13,45 @@
     <title>Oh Crud!</title>
   </head>
   <body>
+
+    <div class="container">
+      <div class="row">
+      <h1 class="title">Oh Crud!</h1>
+      <h2 class="subtitle">A to do list for people who kinda forgot its stuff</h2>
+</div>
+</div>
+
 <div class="container">
-  <div class="row text-center">
-<h1 class="title">Oh Crud!</h1>
-<h2 class="subtitle">A to do list for people who kinda forgot its stuff</h2>
-<div class="col">
-<input class="inpF" id="inputField" placeholder="Add your stuff" type="text"><button class="btn btn-dark" id="addToDo">Fill Me :)</button>
-<button class="btn btn-danger" id="deleteToDo">Delete All</button>
+  <div class="row" >
+<div class="col" id="campo">
+<input class="inpF" id="inputField" placeholder="Add your stuff" type="text">
+<button class="btn btn-dark" id="addToDo">Fill Me :)</button>
+<button class="btn btn-danger" id="deleteToDo"><img src="/delete.png"></button>
+<button class="btn btn-success" id="saveToDo"><img src="/save.png"></button>
 <div class="to-dos" id="toDoContainer">
 </div>
 </div>
 </div>
 </div>
 
+<div class="container">
+  <div class="row">
+    <h2 class="saved">Saved Activities</h2>
+</div>
+</div>
+
+
+<div class="container">
+<div class="row">
+  <div class="col">
+<div class="campo2">
+  <div class="to-dos2" id="toDoContainer2">
+    <button class="btn btn-danger" id="del"><img src="/delete.png"></button>
+  </div>
+  </div>
+    </div>
+  </div> 
+</div>
 
 
   <script src="Crud.js"></script>
