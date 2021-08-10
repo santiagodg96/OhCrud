@@ -1,37 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@1&display=swap');
+
 *{
 font-family: calibri;    
-
 text-align: center;
 }
 
+body{
+background-image: url(https://images.unsplash.com/photo-1528402772935-4134bc18b474?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
 #campo{
-    border-radius: 30px;
     min-height: 500px;
     max-height: 800px;
     width: 80%;
     margin-right: 10px;
     margin-left: 10px;
-    box-shadow: 2px 2px 6px rgb(49, 49, 49);
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);  
-    background-size: 400% 300%;
-    animation: BgGradient 5s ease infinite;
-    margin-bottom: 2%;
+    background: rgba( 0, 0, 0, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10.0px );
+-webkit-backdrop-filter: blur( 50.0px );
+border-radius: 10px;
 }
 
-@keyframes BgGradient{
-0% {background-position: 0% 50%;}    
-50% {background-position: 100% 50%;}    
-100% {background-position: 0% 50%;}    
-}
 
 .title{
 font-size: 400%;
 margin-top: 20px;
+font-family: 'STIX Two Text', calibri;
+color: white;
+text-shadow: 2px 2px 2px black;
 }
 
 .subtitle{
 font-size: 100%;
 margin-bottom: 20px;
+color: white;
+text-shadow: 1px 1px 1px black;
 }
 
 .btn{
@@ -40,12 +46,13 @@ margin-bottom: 8px;
 }
 
 .inpF{
-background-color: white;
+border-radius: 5px;
+background-color: rgb(216, 216, 216);
+border: 0;
 color: black;
 font-size:100%;
 width: 40%;
 border-color: white;
-
 }
 
 .p-style{
@@ -53,6 +60,8 @@ font-size:130%;
 font-weight: bold;
 margin-top: 1%;
 margin-bottom: 1%;
+color: white;
+text-shadow: 1px 1px 1px black;
 }
 
 .deleter{
@@ -64,8 +73,11 @@ background-color: rgb(247, 86, 86)
 
 .saved{
     font-size: 180%;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-bottom:20px;
+    font-family: 'STIX Two Text', calibri;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 .to-dos2{
@@ -74,21 +86,23 @@ background-color: rgb(247, 86, 86)
 
 .campo2{
     display: inline-block;
-    border-radius: 30px;
     min-height: 500px;
     max-height: 800px;
     width: 100%;
-    margin-bottom: 20px;
-    box-shadow: 2px 2px 6px rgb(49, 49, 49);
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     background-size: 400% 300%;
-    animation: BgGradient2 5s ease infinite;
     margin-bottom: 2%;
+    background: rgba( 0, 0, 0, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10.0px );
+-webkit-backdrop-filter: blur( 50.0px );
+border-radius: 10px;
 }
 
-@keyframes BgGradient2{
-0% {background-position: 0% 50%;}    
-50% {background-position: 100% 50%;}    
-100% {background-position: 0% 50%;}    
+.me{
+max-width: 18%;   
+margin-bottom: 1%;
 }
+
+
+
 
